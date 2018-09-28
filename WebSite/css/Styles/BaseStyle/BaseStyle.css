@@ -10,14 +10,31 @@
   
 }
 
+div.horizontalgap {
+  float: left;
+  overflow: hidden;
+  height: 1px;
+  width: 0px;
+}
 .top-buffer { margin-top:20px; }
+.footerBuffer { margin-top:40px; }
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
-.container {
+.container{
+
   max-width: 1620px;
   width: 100%;
+}
+.container-floor {
+
+  /* Debugging Containers */
+  -webkit-box-shadow: 0px -5px 4px 0px rgba(0,0,0,0.19);
+  -moz-box-shadow: 0px -5px 2px 0px rgba(0,0,0,0.19);
+  box-shadow: 0px -5px 4px 0px rgba(0,0,0,0.19);
+  z-index:999;
+
 }
 .carousel img {
   width:100% !important;
@@ -44,6 +61,7 @@ figure {
   height: 60%;
   margin: 0!important;
 }
+.spacer { margin:0; padding:0; height:58px; }
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
