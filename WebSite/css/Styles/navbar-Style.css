@@ -1,0 +1,13 @@
+#moonbyte-nav-Style {
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.19);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.19);
+    z-index:999;
+}
+
+.moonbyte-nav-Brand {
+    font-family: 'Lato', sans-serif;
+    color:grey;
+    font-size: 30px;
+    margin: 100px;
+}
