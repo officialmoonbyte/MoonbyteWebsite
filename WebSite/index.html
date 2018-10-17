@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Moonbyte Corporation - Home</title>
+
+	<!--Importing Classes-->
+
+	<!--BootStrap-->
+	<link rel="stylesheet" href="../css/BS/bootstrap.min.css">
+
+	<!--Custom CSS Styles-->
+	<link href="../css/Styles/BaseStyle/BaseStyle.css" rel="stylesheet">
+	<link href="../css/Styles/navbar-Style.css" rel="stylesheet">
+
+	<link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
+
+	<!--Disable Cache-->
+	<meta http-equiv=”Pragma” content=”no-cache”>
+	<meta http-equiv=”Expires” content=”-1″>
+	<meta http-equiv=”CACHE-CONTROL” content=”NO-CACHE”>
+</head>
+<body>
+
+<!--******************** NAVIGATION BAR ********************-->
+<div class="navbar navbar-expand-md bg-light navbar-light sticky-top" id="moonbyte-nav-Style" role="navigation">
+	<div class="container">
+		<!--Setting a brand and a logo-->
+		<a class="navbar-brand" href="index.html"><img src="../img/newbranding.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+	
+				<li class="nav-item pr-1 active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+			
+				<li class="nav-item px-1">
+					<a class="nav-link" href="products.html">Products</a>
+				</li>
+			
+				<li class="nav-item px-1">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+	
+				<li class="nav-item px-1">
+					<a class="nav-link" href="contact.html">Contact Us</a>
+				</li>
+	
+				<li class="nav-item px-1">
+					<a class="nav-link" href="donate.html">Donate</a>
+				</li>
+					
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!--- Image Slider -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+	  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img class="d-block w-100" src="../img/background.png" alt="First slide">
+		<div class="carousel-caption d-none d-md-block">
+			<h1 class="display-2">Moonbyte</h1>
+			<h3> Game Hosting and Developer Tools</h3>
+			<button type="button" class="btn btn-outline-light btn-lg">Igloo Browser</button>
+			<button type="button" class="btn btn-outline-light btn-lg">Developer Tools</button>
+		</div>
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="../img/background2.png" alt="Second slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="../img/background3.png" alt="Third slide">
+	  </div>
+	</div>
+	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Next</span>
+	</a>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding top-buffer">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">Built for you.</h1>
+	</div>
+	<hr>
+	<div class="col-12">
+		<p class="lead" style="font-size:28px;" style="font-weight:bold;">Here are some of the products we have made for you. For free. Forever.</p>
+
+	</div>
+</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container padding">
+	<div class="row text-center padding">
+
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<img src="../img/team1.png" class="img-fluid rounded" alt="Responsive Image">
+			<h3 style="font-weight:bold;">Igloo Browser</h3>
+			<p style="font-size:22px">Our own, in-house browser made to simplify privacy. Built with the Chromium Engine.</p>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<img src="../img/team2.png" class="img-fluid rounded" alt="Responsive Image">
+			<h3 style="font-weight:bold;">Lorem Ipsum</h3>
+			<p style="font-size:22px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt.</p>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<img src="../img/team3.png" class="img-fluid rounded" alt="Responsive Image">
+			<h3 style="font-weight:bold;">Lorem Ipsum</h3>
+			<p style="font-size:22px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+		</div>
+	</div>
+<hr class="my-4">
+</div>
+
+<!--- Jumbotron -->
+<div class="container">
+	<div class="row jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-8">
+					<p class="lead">Here at Moonbyte the things that are most important to us are customer satisfaction, keeping your data yours(we wont sell your information), and making our user interfaces very easy to interact with.</p>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-1">
+					<a href="about.html"><button type="button" class="btn btn-outline-secondary" btn-lg>About Us</button></a>
+				</div>
+			</div>       
+		</div>
+	</div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container padding top-buffer">
+<div class="row padding">
+	<div class="col-lg-6 col-md-6 col-sm-12">
+		<h2 style="font-weight:bold;"> If you need a host, we've got you covered.</h2><br>
+		<p style="font-size:22px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et.</p>
+
+
+		<p style="font-size:22px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore.</p>
+
+
+
+		<p style="font-size:22px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore. tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		<br>
+		<a href="#" class="btn btn-primary">View Plans</a>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12">
+		<img src="../img/2colpic.jpg" class="img-fluid">
+
+	</div>
+
+</div>
+</div>
+
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+  
+<!--- Meet the team -->
+
+<!--- Two Column Section -->
+
+<!--- Connect -->
+
+<!--- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5 footerBuffer">
+
+	<div style="background-color: #21d192;">
+		<div class="container-floor">
+			<div class="container">
+				<div class="row py-4 d-flex align-items-center">
+				<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+					<h6 class="mb-0">Get connected with us on social networks!</h6>
+				</div>
+					<div class="col-md-6 col-lg-7 text-center text-md-right">
+			
+						<div style="width:60px; float:right;">
+							<a href="about.html"><img src="../img/GooglePlus-Logo.png" class="img-fluid ml-20"></a>
+						</div>
+						<div style="width:60px; float:right;">
+							<a href="about.html"><img src="../img/Linkedin-Logo.png" class="img-fluid ml-20"></a>
+						</div>
+						<div style="width:60px; float:right;">
+							<a href="about.html"><img src="../img/Twitter-Logo.png" class="img-fluid ml-20"></a>
+						</div>
+						<div style="width:60px; float:right;">
+							<a href="about.html"><img src="../img/Youtube-Logo.png" class="img-fluid ml-20"></a>
+						</div>
+						<div style="width:60px; float:right;">
+							<a href="about.html"><img src="../img/Facebook-Logo.png" class="img-fluid ml-20"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<!-- Footer Links -->
+	<div class="container text-center text-md-left mt-5">
+		<div class="row mt-3 dark-grey-text">
+		<div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+		
+			<!-- Content -->
+			<h6 class="text-uppercase font-weight-bold">Moonbyte</h6>
+			<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. tempor incididunt ut labore et dolore.</p>
+		
+		</div>
+		<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+	
+			<!-- Links -->
+			<h6 class="text-uppercase font-weight-bold">Useful Links</h6>
+			<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+			<p>
+			<a class="dark-grey-text" href="IglooBrowser.html">Igloo Browser</a>
+			</p>
+			<p>
+			<a class="dark-grey-text" href="ServerHost.html">Server Hosting</a>
+			</p>
+			<p>
+			<a class="dark-grey-text" href="#!">Download Thing</a>
+			</p>
+			<p>
+			<a class="dark-grey-text" href="#!">Something</a>
+			</p>
+		
+		</div>
+	
+		<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<div class="spacer"></div>
+			<p>
+				<a class="dark-grey-text" href="about.html">About</a>
+			</p>
+			<p>
+				<a class="dark-grey-text" href="stock/MoonByte.html">Investors</a>
+			</p>
+			<p>
+				<a class="dark-grey-text" href="DownloadDistribution.html">Download Distribution</a>
+			</p>
+			<p>
+				<a class="dark-grey-text" href="Affiliate.html">Become an Affiliate</a>
+			</p>
+		</div>
+	
+		<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+		
+			<!-- Links -->
+			<h6 class="text-uppercase font-weight-bold">Contact</h6>
+			<hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+			<p>
+			<i class="fa fa-home mr-3"></i> Saint Paul, Minnesota</p>
+			<p>
+			<i class="fa fa-envelope mr-3"></i> support@moonbyte.net</p>
+			<p>
+			<i class="fa fa-phone mr-3"></i> (651)-410-8911</p>
+		</div>	
+		</div>	
+	</div>
+		
+	<!-- Copyright -->
+	<div class="footer-copyright text-center text-black-50 py-3">© 2018 Copyright:
+		<a class="dark-grey-text"> Moonbyte Corporation, MoonByte Group</a>
+	</div>
+		
+	</footer>
+
+<!--Importing JS Files-->
+<script src="../js/BS/jQuery.min.js"></script>
+<script src="../js/BS/popper.min.js"></script>
+<script src="../js/BS/bootstrap.min.js"></script>
+<script src="../js/BS/all.js"></script>
+
+</body>
+</html>
