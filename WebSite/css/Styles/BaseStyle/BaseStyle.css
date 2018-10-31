@@ -10,6 +10,15 @@
   
 }
 
+
+
+
+
+.navbar-brand {
+  max-width: 50%;
+}
+
+.navbarLogo { padding: 10px; }
 #appSummary{
   justify-content:center;
 }

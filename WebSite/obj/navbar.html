@@ -1,40 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<script> $(
+        function(){ 
+            $("#Navbar-Brand").load("https://moonbyte.net/obj/Navbar/Navbar-Brand.html");  
+            $("#Navbar-Items").load("https://moonbyte.net/obj/Navbar/Navbar-Items.html");  
+            $("#Navbar-Logo").load("https://moonbyte.net/obj/Navbar/Navbar-Logo.html"); 
+            $("#Navbar").load("https://moonbyte.net/obj/navbar.html");
+        }); 
+    </script>
 <!--******************** NAVIGATION BAR ********************-->
-<div class="navbar navbar-expand-md bg-light navbar-light sticky-top" id="moonbyte-nav-Style" role="navigation">
-    <div class="container">
-        <!--Setting a brand and a logo-->
-        <a class="navbar-brand" href="index.html"><img src="img/newbranding.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<div class="navbar fixed-top navbar-expand-sm navbar-light bg-light" id="moonbyte-nav-Style" role="navigation"> 
+		
+        <div id="Navbar-Brand"></div>
+        
+        <div class="mx-auto d-sm-flex d-block flex-sm-nowrap"> 
+            <div class="row">
+                <div class="collapse navbar-collapse" id="navbarNav1"><div id="Navbar-Logo"></div></div>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div id="Navbar-Items"></div> 
+                </div>
+            </div>
+        </div> 
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-        
-                <li class="nav-item pr-1 active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                
-                <li class="nav-item px-1">
-                    <a class="nav-link" href="products.html">Products</a>
-                </li>
-                
-                <li class="nav-item px-1">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-        
-                <li class="nav-item px-1">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-        
-                <li class="nav-item px-1">
-                    <a class="nav-link" href="donate.html">Donate</a>
-                </li>
-                        
-            </ul>
-        </div>
     </div>
-</div>
-
-</head>

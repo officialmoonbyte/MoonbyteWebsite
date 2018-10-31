@@ -29,14 +29,20 @@
 	<script src="js/BS/bootstrap.min.js"></script>
 	<script src="js/BS/all.js"></script>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"> </script>
-	<script> $(function(){ $("#header").load("obj/navbar.html");  $("#footer").load("obj/footer.html"); }); </script>
-
+	<script> $(
+		function(){ 
+			$("#footer").load("obj/footer.html"); 
+			$("#Navbar-Brand").load("obj/Navbar/Navbar-Brand.html");  
+			$("#Navbar-Items").load("obj/Navbar/Navbar-Items.html");  
+			$("#Navbar-Logo").load("obj/Navbar/Navbar-Logo.html"); 
+		}); 
+	</script>
+	<script type="text/javascript"> $(document).ready(function() { $('#nav-container').load('../obj/navbar.html'); }); </script>
 </head>
 <body>
 
 <!--******************** NAVIGATION BAR ********************-->
-<div id="header"></div>
+<div id="nav-container"></div> <p>&nbsp;</p> <p>&nbsp;</p>
 
 <!--- Footer -->
 <div id="footer"></div>
