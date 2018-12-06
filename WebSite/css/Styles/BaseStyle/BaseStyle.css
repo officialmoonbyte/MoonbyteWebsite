@@ -12,8 +12,13 @@
 
 
 
+.greenText{
+  color: rgb(0, 204, 0);
+}
 
-
+.redText{
+  color: rgb(255, 51, 0)
+}
 .navbar-brand {
   max-width: 50%;
 }
