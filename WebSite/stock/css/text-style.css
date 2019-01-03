@@ -1,0 +1,14 @@
+.keyText
+{
+    text-decoration: line-through;
+}
+
+.greenText
+{
+    color: rgb(0, 180, 0);
+}
+
+.redText
+{
+    color:rgb(200, 0, 0);
+}
