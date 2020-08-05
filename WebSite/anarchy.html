@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Moonbyte - Anarchy server</title>
+  <meta name="author" content="Moonbyte">
+  <meta name="description" content="Main homepage for Moonbyte! Currently doesn't have anything on it, but in the future will host the download link for Vermeer Web Browser!">
+  <meta name="keywords" content="moonbyte,corporation,moonbytecorporation,vermeer,webbrowser,browser,internet,http,vermeerweb,vermeerwebbrowser,web,browser,firefox,chrome,edge,microsoftedge,googlechrome">
+  <link rel="shortcut icon" href="img/icon.ico">
+  
+
+<!-- Bootstrap core CSS -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link href="css/animated-scroll-anchor.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+
+ <style type="text/css" media="screen">
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://moonbyte.net/img/minecraftserverbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+.mouse_scroll {
+	display: block;
+	margin: 0 auto;
+	width: 24px;
+	height: 100px;
+	margin-top: 125px;
+}
+
+
+.m_scroll_arrows
+{
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+   
+  border-right: 2px solid rgb(42, 42, 42);
+  border-bottom: 2px solid rgb(42, 42, 42);
+  margin: 0 0 3px 4px;
+  
+  width: 16px;
+  height: 16px;
+}
+
+
+.unu
+{
+  margin-top: 1px;
+}
+
+.unu, .doi, .trei
+{
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+    animation: mouse-scroll 1s infinite;
+  
+}
+
+.unu
+{
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+  
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.doi
+{
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .2s;
+  animation-direction: alternate;
+  
+  margin-top: -6px;
+}
+
+.trei
+{
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .3s;
+  animation-direction: alternate;
+  
+  
+  margin-top: -6px;
+}
+
+.mouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  transform: none;
+  border: 2px solid rgb(42, 42, 42);
+  top: 170px;
+}
+
+.wheel {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: rgb(42, 42, 42);
+  position: relative;
+  
+  height: 4px;
+  width: 4px;
+  border: 2px solid rgb(42, 42, 42);
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.wheel {
+  -webkit-animation: mouse-wheel 0.6s linear infinite;
+  -moz-animation: mouse-wheel 0.6s linear infinite;
+  animation: mouse-wheel 0.6s linear infinite;
+}
+
+@-webkit-keyframes mouse-wheel{
+   0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@-moz-keyframes mouse-wheel {
+  0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+@-o-keyframes mouse-wheel {
+
+   0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+@keyframes mouse-wheel {
+
+   0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+
+@-webkit-keyframes mouse-scroll {
+
+  0%   { opacity: 0;}
+  50%  { opacity: .5;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@-o-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+.form-actions {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+ </style>
+</head>
+
+<body>
+
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="font-weight-light">Moonbyte Anarchy</h1>
+          <p class="lead">A anarchy server with no ops, staff, or illegal items.</p>
+          <br>
+          <p class="lead">Scroll down to learn more</p>
+          <p class="lead">Please note : this website is in early access and it's mostly for information and donation use only. We plan to add so much more to this website.</p>
+
+          <div class="mouse_scroll">
+
+            <div class="mouse">
+                <div class="wheel"></div>
+                <a class="ct-btn-scroll ct-js-btn-scroll animated" href="#content"></a>
+            </div>
+            <div>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+                <a class="ct-btn-scroll ct-js-btn-scroll animated" href="#content"></a>
+            </div>
+            <a class="ct-btn-scroll ct-js-btn-scroll animated" href="#content"></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="content">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <h1 class="display-4 text-center">Pure Minecraft anarchy experience</h1>
+            <p class="text-center">Experience a pure anarchy experience, with a new anarchy server gaining players every single day! For the last three weeks the server has been up, the world is already 20Gb big with 416 unique logins! Like we said in the server title, there are no admins, no staff, no special privilege to any user. Even the owner's account (braydel, privoner and OleDysk) are all deopped users in the default group of LuckPerms. Also, LuckPerms only has one group : default. All of this prevents illegal items like 32k tools, weapons, end portal frames, bedrock, etc from being spawned. This also balances out the game to make sure nobody, has an unlawful competitive advantage that cannot be done within the vanilla game without server console access. All hacks, duping methods, etc are allowed if you can do it without op commands or server console.</p>
+          </div>
+          <div class="col-1"><br></div>
+          <div class="col-4">
+            <iframe src="https://discordapp.com/widget?id=634979177325527063&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+            <div class="form-actions">
+              <button id="singlebutton" name="singlebutton" class="btn btn-primary center-block" onclick="window.open('https://discordapp.com/invite/vKDyYXc','_blank')">Join our Discord!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="hackmenu-list">
+          <img class="mx-auto rounded-circle" src="img/aristoisLogo.png" alt="">
+          <h4>Aristois Menu</h4>
+          <br>
+          <button type="button" class="btn btn-outline-primary" onclick="window.open('https://aristois.net/','_blank')">Aristois client website</button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="hackmenu-list">
+          <img class="mx-auto rounded-circle" src="img/10699069.png" alt="">
+          <h4>Wurst</h4>
+          <br>
+          <button type="button" class="btn btn-outline-primary" onclick="window.open('https://www.wurstclient.net/','_blank')">Wurst client website</button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="hackmenu-list">
+          <img class="mx-auto rounded-circle" src="img/5cb487d85f1b6d3fbadece7e.png" alt="">
+          <h4>WWE menu</h4>
+          <br>
+          <button type="button" class="btn btn-outline-primary" onclick="window.open('https://wweclient.com/','_blank')">WWE client website</button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="hackmenu-list">
+          <img class="mx-auto rounded-circle" src="img/ogTwitter.png" alt="">
+          <h4>Future Client</h4>
+          <br>
+          <button type="button" class="btn btn-outline-primary" onclick="window.open('https://futureclient.net/','_blank')">future client website</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="content">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <br>
+            <br>
+            <br>
+            <h1 class="display-5 text-left">Like the server and have extra cash? Try donating to improve the server</h1>
+            <br>
+            <p class="text-center">All donations will go towards upgrading the current server hardware. Currently, we are trying to upgrade to a new SSD. A new 1Tb SSD will cost us $99.99 - $149.99 not including tax or shipping. Every amount helps. If everyone who played the server donates $2, we would've raised $800 to upgrade our server, network infrastructure, and more!</p>
+          </div>
+          <div class="col-1"><br></div>
+          <div class="col-4 ">
+            <div class="form-actions">
+              <button id="singlebutton" name="singlebutton" class="btn btn-primary center-block" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4M83JTQ8EHY6E&source=url','_blank')">Paypal Donation Link</button>
+            </div>
+            <br>
+            <br>
+            <p class = "text-center">Current goal : New server SSD </p>
+            <br>
+            <p class = "text-center">Either a Samsumg EVO 1TB, or a Crucial MX500 1TB</p>
+            <p class = "text-center">$0 / $99.99 - $149.99</p>
+            <p class = "text-center">This website is currently in development, I'll list the current specs of the server, but currently this server is running on a 1TB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder">
+
+  </div>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Adds the MinecraftAPI js-->
+  <script src="https://mcapi.us/scripts/minecraft.js"></script>
+  <script src="js/animated-scroll-anchor.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.js"></script>
+
+  <script>
+    $(function(){
+      $("#footer-placeholder").load("https://moonbyte.net/assets/footer.html");
+    });
+  </script>
+
+</body>
+
+</html>
