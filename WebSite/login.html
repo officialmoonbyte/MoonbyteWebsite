@@ -291,9 +291,9 @@ footer a {
       <form action="#" method="GET" id="register-form">
 		<h1>Create Account</h1>
 		<div id="register-error"></div>
-        <input type="text" id="name" name="name" placeholder="Name" />
-        <input type="email" id="email" name="email" placeholder="Email" />
-        <input type="password" id="password" name="password" placeholder="Password" />
+        <input type="text" id="regName" placeholder="Name" required />
+        <input type="email" id="regEmail" placeholder="Email" required />
+        <input type="password" id="regPassword" placeholder="Password" required />
         <button>Sign Up</button>
       </form>
     </div>
@@ -301,8 +301,8 @@ footer a {
 		<form action="#" method="GET" id="signin-form">
 		<h1>Sign in</h1>
 		<div id="signin-error"></div>
-        <input type="email" id="email" name="email" placeholder="Email" />
-        <input type="password" id="password" name="password" placeholder="Password" />
+        <input type="email" id="logEmail" placeholder="Email" required />
+        <input type="password" id="logPassword" placeholder="Password" required />
         <a href="#">Forgot your password?</a>
         <button>Sign In</button>
       </form>
@@ -327,19 +327,6 @@ footer a {
 
   <!--------------------------------------------------------------- SCRIPTS --------------------------------------------------------------->
 
-  <script>
-    const signUpButton = document.getElementById('signUp');
-    const signInButton = document.getElementById('signIn');
-    const container = document.getElementById('container');
-    
-    signUpButton.addEventListener('click', () => {
-        container.classList.add("right-panel-active");
-    });
-    
-    signInButton.addEventListener('click', () => {
-        container.classList.remove("right-panel-active");
-    });
-  </script>
   <!-- CSI -->
   <script type="text/javascript" src="js/CSI.min.js"></script>
   <!-- JQuery -->
@@ -356,5 +343,32 @@ footer a {
   <script src="https://kit.fontawesome.com/6e761beb5a.js" crossorigin="anonymous"></script>
   <!-- Custom scripts for this template -->
   <script src="js/agency.js"></script>
+
+  <script src="js/login/moonaccountlogin.js"></script>
+
+  <script>
+    const signUpButton = document.getElementById('signUp');
+    const signInButton = document.getElementById('signIn');
+    const container = document.getElementById('container');
+    
+    signUpButton.addEventListener('click', () => {
+		container.classList.add("right-panel-active");
+		onSingUpClick();
+    });
+    
+    signInButton.addEventListener('click', () => {
+		container.classList.remove("right-panel-active");
+		OnLoginClick();
+	});
+
+	function onSignupClick(){
+
+	}
+	
+	function onLoginClick(){
+
+	}
+	
+	</script>
 
 </body>
